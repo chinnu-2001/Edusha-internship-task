@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(90deg,#fab4fd,#961fde);
+}
+.container{
+    background-color: #ffffff;
+    width: 310px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border-radius: 35px;
+    height: 675px;
+    margin-left: 40%;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 89px 30px 40px 22px;
+}
+.section1 img{
+   height: 70px;
+   width: 70px;
+   padding:0px 15px 0 15px;
+   
+}
+.section1{
+    display: flex;
+    padding: 10px;
+    font-size: 12px;
+    
+}
+.pr{
+    display: flex;
+    
+}
+.price{
+    color: white;
+    background-color: #076ff8  ;
+    border-radius: 4px;
+    padding: 4px 6px 4px 6px;
+    margin: 6px 6px 0 0;
+}
+.bed button{
+    padding: 3px 5px 3px 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: #ff2965;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   border-style: none;
+
+}
+
+.section1 p{
+    margin-top: 7px;
+}
+.icons{
+    color:#076ff8 ;
+    font-size: 23px;
+    display: flex;
+    justify-content: space-evenly;  
+    background-color: #ffffff;
+    margin-left: 40%;
+    padding: 18px 0px 10px 0px;
+    width: 310px;
+    position: absolute;
+    bottom: 73px;
+    border-radius: 15px;
+
+}
+.model-container{
+    background-color: black;
+    color: white;
+    opacity: 0;
+    pointer-events:none;
+    padding: 30px 50px 30px 50px;
+    width: 250px;
+    position: absolute;
+    left: 39%;
+    top: 39%;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.model-container.show{
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.model button{
+  text-align:center;
+  cursor:pointer;
+  position:absolute;
+  right:20px;
+  top:20px;
+  width:30px;
+  height:30px;
+  background:#fff;
+  color:#222;
+  font-size:25px;
+  font-weight:600;
+  line-height:15px;
+  
+  border-radius:50%;
+}
